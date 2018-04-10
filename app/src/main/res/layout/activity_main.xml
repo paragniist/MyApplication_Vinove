@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:elevation="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="2dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginEnd="@dimen/default_margin_large"
+                        android:layout_marginLeft="@dimen/default_margin_large"
+                        android:layout_marginRight="@dimen/default_margin_large"
+                        android:layout_marginStart="@dimen/default_margin_large"
+                        android:layout_marginTop="3dp"
+                        android:text="Hey Arjun! We have a discount on large pizza's today. Please view ths video before starting your shift."
+                        android:textColor="@color/textColor"
+                        android:textSize="15sp" />
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/raisedBtn"
+                        style="@style/RaisedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginEnd="@dimen/default_margin_large"
+                        android:layout_marginLeft="@dimen/default_margin_large"
+                        android:layout_marginRight="@dimen/default_margin_large"
+                        android:layout_marginStart="@dimen/default_margin_large"
+                        android:layout_marginTop="3dp"
+                        android:text="View Video"
+                        android:textAllCaps="false" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
+

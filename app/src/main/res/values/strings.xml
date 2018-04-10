@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyApplication_Vinove</string>
+    <string-array name="calender">
+        <item>Week</item>
+        <item>Month</item>
+        <item>year</item>
+
+
+    </string-array>
+
+</resources>

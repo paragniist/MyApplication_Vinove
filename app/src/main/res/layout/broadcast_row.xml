@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="8dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView_id"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginStart="@dimen/default_margin_25"
+                android:layout_marginTop="@dimen/default_margin_25"
+                android:scaleType="centerCrop"
+                android:src="@drawable/john" />
+
+
+            <TextView
+                android:id="@+id/textView1_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/default_margin_large"
+                android:layout_marginStart="@dimen/default_margin_large"
+                android:layout_marginTop="@dimen/default_margin"
+                android:text="Broadcast from Arjun"
+                android:textColor="@color/textColor"
+                android:textSize="16sp"
+                android:textStyle="bold|normal" />
+
+            <TextView
+                android:id="@+id/textView2_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_margin_25"
+                android:layout_marginStart="@dimen/default_margin_25"
+                android:layout_marginTop="@dimen/margin"
+                android:text="1 day ago"
+                android:textColor="@color/textColor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView3_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/default_margin_25"
+                android:layout_marginLeft="@dimen/default_margin_25"
+                android:layout_marginRight="@dimen/default_margin_25"
+                android:layout_marginStart="@dimen/default_margin_25"
+                android:layout_marginTop="@dimen/default_margin"
+                android:text="Sorry team but we are closed today. There was a leak in one of the pipes. I have updated all the schedules"
+                android:textColor="@color/textColor"
+                android:textSize="14sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+

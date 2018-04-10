@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/default_margin">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin"
+        android:elevation="8dp"
+        android:focusable="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/default_margin"
+                android:src="@drawable/top_performer" />
+
+            <TextView
+                android:id="@+id/textView_id"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#4A535B"
+                android:text="Top Performer"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textView1_id"
+                android:layout_width="155dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="#8F949A"
+                android:text="Lorem ipsum dolor sit consectetur adipiscing" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
